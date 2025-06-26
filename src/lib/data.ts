@@ -1,0 +1,68 @@
+import type { Product } from './types';
+
+export const products: Product[] = [
+  {
+    id: '1',
+    name: 'Designer Kurti',
+    description: 'Elegant embroidered kurti for festive occasions, made with pure cotton.',
+    price: 1299.0,
+    imageUrl: 'https://images.unsplash.com/photo-1617019772534-153b78442e97',
+    dateAdded: '2023-10-26T10:00:00Z',
+  },
+  {
+    id: '2',
+    name: 'Silk Saree',
+    description: 'Traditional Banarasi silk saree with intricate zari work.',
+    price: 4999.0,
+    imageUrl: 'https://images.unsplash.com/photo-1620042452443-4375d0459345',
+    dateAdded: '2023-11-15T12:30:00Z',
+  },
+  {
+    id: '3',
+    name: 'boAt Airdopes',
+    description: 'Wireless earbuds with deep bass and long battery life. #1 in India.',
+    price: 1799.0,
+    imageUrl: 'https://images.unsplash.com/photo-1606741965326-cb990ae01bb2',
+    dateAdded: '2023-09-01T08:00:00Z',
+  },
+  {
+    id: '4',
+    name: 'OnePlus Nord CE 3',
+    description: 'A powerful mid-range smartphone with a stunning display and camera.',
+    price: 24999.0,
+    imageUrl: 'https://images.unsplash.com/photo-1598327105666-6d3643624f21',
+    dateAdded: '2024-01-05T18:45:00Z',
+  },
+  {
+    id: '5',
+    name: 'Handcrafted Juttis',
+    description: 'Authentic Punjabi juttis with beautiful leatherwork and embroidery.',
+    price: 850.0,
+    imageUrl: 'https://images.unsplash.com/photo-1617606001699-2796df35ac57',
+    dateAdded: '2023-12-20T14:00:00Z',
+  },
+  {
+    id: '6',
+    name: 'Pressure Cooker',
+    description: 'A staple in every Indian kitchen. Cooks food faster, saving time and energy.',
+    price: 2200.0,
+    imageUrl: 'https://images.unsplash.com/photo-1604494951635-4a94622998a1',
+    dateAdded: '2023-10-10T11:20:00Z',
+  },
+  {
+    id: '7',
+    name: 'Masala Dabba',
+    description: 'Stainless steel spice box to keep your essential Indian spices organized.',
+    price: 599.0,
+    imageUrl: 'https://images.unsplash.com/photo-1598514983318-782d9a16a495',
+    dateAdded: '2024-01-15T09:00:00Z',
+  },
+  {
+    id: '8',
+    name: 'Cricket Bat',
+    description: 'English Willow cricket bat for powerful shots and excellent performance.',
+    price: 3500.0,
+    imageUrl: 'https://images.unsplash.com/photo-1593341643486-9b36a1e3454b',
+    dateAdded: '2023-11-30T20:00:00Z',
+  },
+];
